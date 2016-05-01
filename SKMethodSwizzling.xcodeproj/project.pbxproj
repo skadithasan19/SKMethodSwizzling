@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		0C2F60B01CD456A800373868 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F60AF1CD456A800373868 /* main.m */; };
 		0C2F60B31CD456A800373868 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F60B21CD456A800373868 /* AppDelegate.m */; };
-		0C2F60B61CD456A800373868 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F60B51CD456A800373868 /* ViewController.m */; };
 		0C2F60B91CD456A800373868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2F60B71CD456A800373868 /* Main.storyboard */; };
 		0C2F60BC1CD456A800373868 /* SKMethodSwizzling.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F60BA1CD456A800373868 /* SKMethodSwizzling.xcdatamodeld */; };
 		0C2F60BE1CD456A800373868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2F60BD1CD456A800373868 /* Assets.xcassets */; };
 		0C2F60C11CD456A800373868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2F60BF1CD456A800373868 /* LaunchScreen.storyboard */; };
 		0C2F60CC1CD456A800373868 /* SKMethodSwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F60CB1CD456A800373868 /* SKMethodSwizzlingTests.m */; };
+		0C2F60DC1CD45A0200373868 /* UIWindow+SKWindowTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F60DB1CD45A0200373868 /* UIWindow+SKWindowTracking.m */; };
+		0C2F60DF1CD475DC00373868 /* UIViewController+WillAppearTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F60DE1CD475DB00373868 /* UIViewController+WillAppearTracking.m */; };
+		0C4079D11CD51ECC00CFA6BC /* NextOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4079CE1CD51ECC00CFA6BC /* NextOneViewController.m */; };
+		0C4079D21CD51ECC00CFA6BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4079D01CD51ECC00CFA6BC /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +35,6 @@
 		0C2F60AF1CD456A800373868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C2F60B11CD456A800373868 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C2F60B21CD456A800373868 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C2F60B41CD456A800373868 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C2F60B51CD456A800373868 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0C2F60B81CD456A800373868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C2F60BB1CD456A800373868 /* SKMethodSwizzling.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SKMethodSwizzling.xcdatamodel; sourceTree = "<group>"; };
 		0C2F60BD1CD456A800373868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +43,14 @@
 		0C2F60C71CD456A800373868 /* SKMethodSwizzlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKMethodSwizzlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2F60CB1CD456A800373868 /* SKMethodSwizzlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMethodSwizzlingTests.m; sourceTree = "<group>"; };
 		0C2F60CD1CD456A800373868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2F60DA1CD45A0200373868 /* UIWindow+SKWindowTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+SKWindowTracking.h"; sourceTree = "<group>"; };
+		0C2F60DB1CD45A0200373868 /* UIWindow+SKWindowTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SKWindowTracking.m"; sourceTree = "<group>"; };
+		0C2F60DD1CD475DB00373868 /* UIViewController+WillAppearTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WillAppearTracking.h"; sourceTree = "<group>"; };
+		0C2F60DE1CD475DB00373868 /* UIViewController+WillAppearTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WillAppearTracking.m"; sourceTree = "<group>"; };
+		0C4079CD1CD51ECC00CFA6BC /* NextOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextOneViewController.h; sourceTree = "<group>"; };
+		0C4079CE1CD51ECC00CFA6BC /* NextOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextOneViewController.m; sourceTree = "<group>"; };
+		0C4079CF1CD51ECC00CFA6BC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C4079D01CD51ECC00CFA6BC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +92,12 @@
 		0C2F60AD1CD456A800373868 /* SKMethodSwizzling */ = {
 			isa = PBXGroup;
 			children = (
+				0C4079CC1CD51ECC00CFA6BC /* Controller */,
+				0C2F60D91CD45A0200373868 /* Categories */,
 				0C2F60B11CD456A800373868 /* AppDelegate.h */,
 				0C2F60B21CD456A800373868 /* AppDelegate.m */,
-				0C2F60B41CD456A800373868 /* ViewController.h */,
-				0C2F60B51CD456A800373868 /* ViewController.m */,
 				0C2F60B71CD456A800373868 /* Main.storyboard */,
-				0C2F60BD1CD456A800373868 /* Assets.xcassets */,
 				0C2F60BF1CD456A800373868 /* LaunchScreen.storyboard */,
-				0C2F60C21CD456A800373868 /* Info.plist */,
-				0C2F60BA1CD456A800373868 /* SKMethodSwizzling.xcdatamodeld */,
 				0C2F60AE1CD456A800373868 /* Supporting Files */,
 			);
 			path = SKMethodSwizzling;
@@ -100,6 +106,9 @@
 		0C2F60AE1CD456A800373868 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C2F60BD1CD456A800373868 /* Assets.xcassets */,
+				0C2F60C21CD456A800373868 /* Info.plist */,
+				0C2F60BA1CD456A800373868 /* SKMethodSwizzling.xcdatamodeld */,
 				0C2F60AF1CD456A800373868 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -112,6 +121,28 @@
 				0C2F60CD1CD456A800373868 /* Info.plist */,
 			);
 			path = SKMethodSwizzlingTests;
+			sourceTree = "<group>";
+		};
+		0C2F60D91CD45A0200373868 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0C2F60DA1CD45A0200373868 /* UIWindow+SKWindowTracking.h */,
+				0C2F60DB1CD45A0200373868 /* UIWindow+SKWindowTracking.m */,
+				0C2F60DD1CD475DB00373868 /* UIViewController+WillAppearTracking.h */,
+				0C2F60DE1CD475DB00373868 /* UIViewController+WillAppearTracking.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0C4079CC1CD51ECC00CFA6BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C4079CD1CD51ECC00CFA6BC /* NextOneViewController.h */,
+				0C4079CE1CD51ECC00CFA6BC /* NextOneViewController.m */,
+				0C4079CF1CD51ECC00CFA6BC /* ViewController.h */,
+				0C4079D01CD51ECC00CFA6BC /* ViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,9 +245,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C2F60B61CD456A800373868 /* ViewController.m in Sources */,
+				0C4079D21CD51ECC00CFA6BC /* ViewController.m in Sources */,
+				0C2F60DC1CD45A0200373868 /* UIWindow+SKWindowTracking.m in Sources */,
 				0C2F60B31CD456A800373868 /* AppDelegate.m in Sources */,
+				0C4079D11CD51ECC00CFA6BC /* NextOneViewController.m in Sources */,
 				0C2F60BC1CD456A800373868 /* SKMethodSwizzling.xcdatamodeld in Sources */,
+				0C2F60DF1CD475DC00373868 /* UIViewController+WillAppearTracking.m in Sources */,
 				0C2F60B01CD456A800373868 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +442,7 @@
 				0C2F60D21CD456A800373868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2F60D31CD456A800373868 /* Build configuration list for PBXNativeTarget "SKMethodSwizzlingTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +451,7 @@
 				0C2F60D51CD456A800373868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
