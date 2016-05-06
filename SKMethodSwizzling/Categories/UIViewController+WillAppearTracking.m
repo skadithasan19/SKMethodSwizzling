@@ -20,7 +20,7 @@
         Class class = [self class];
         
         SEL mainMethodSEL = @selector(viewWillAppear:);
-        SEL swizzledToSEL = @selector(load_viewwillAppear:); //Sizzling
+        SEL swizzledToSEL = @selector(load_viewwillAppear:); //Swizzling
         
         // the method we are going to swizzle
         Method mainMethod = class_getInstanceMethod(class, mainMethodSEL);
